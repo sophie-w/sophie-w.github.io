@@ -1,5 +1,0 @@
----
-title: "Tools and Tips"
----
-    
-Here are thing I have developed or discovered, and wish to share:
