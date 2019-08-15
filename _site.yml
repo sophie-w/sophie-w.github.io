@@ -1,0 +1,36 @@
+name: "Sophie L. Williams"
+navbar:
+  title: "Sophie L. Williams"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About Me"
+      href: about.html
+    - text: "Projects"
+      href: talks.html
+    - text: "Papers"
+      href: software.html
+      menu:
+        - text: "Research Papers"
+        - text: "Page A"
+          href: page-a.html
+        - text: "Page B"
+          href: page-b.html
+        - text: "---------"
+        - text: "Blogs"
+        - text: "Page C"
+          href: page-c.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    - icon: fa-github fa-lg
+      href: http://github.com/sophie-w
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/SophL_Williams
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/sophie-williams-020b2044/
+output:
+  html_document:
+    theme: paper
+    highlight: textmate
+    css: 'styles.css'
